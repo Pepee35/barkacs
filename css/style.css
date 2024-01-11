@@ -11,15 +11,10 @@ body {
 h1 {
     color: rgb(255, 255, 255);
     font-size: 100px;
-    margin-left: 43.75rem;
     font-family: 'Outfit', sans-serif;
     background-color: rgba(83, 83, 83, 0.822);
 }
 
 .bbb {
     font-family: 'Outfit', sans-serif;
-}
-
-.nyitva {
-    
 }
