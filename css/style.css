@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
 #bg {
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,22 +18,23 @@ h1 {
 #adatok {
     display: none;
     border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
+    width: 80%;
+    margin-top: 30px;
+    margin: auto;
 }
 
 #adatok th, #adatok td {
     border: 2px solid black;
     padding: 8px;
-    text-align: left;
-    border-radius: 5px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 #katt {
     cursor: pointer;
-    padding: 10px;
     color: white;
     border: none;
+    font-size: 20px;
 }
 
 .container {

@@ -1,11 +1,13 @@
-let click = document.getElementById("katt");
-
+var click = document.getElementById("katt");
+var table = document.getElementById("adatok")
 click.addEventListener("click", () => {
-    let table = document.getElementById("adatok");
-
     if (table.style.display === "table") {
-        table.style.display = "none"
+        $(table).fadeOut("slow", function() {
+            $(this).removeClass('show');
+        });
     } else {
-        table.style.display = "table"
+        $(table).fadeIn("slow", function() {
+            $(this).addClass('show');
+        });
     }
-})
+});
