@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
-
-body {
-    background-image: url('../img/bg.jpg');
+#bg {
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
