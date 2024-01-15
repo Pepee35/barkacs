@@ -3,7 +3,7 @@
 #bg {
     background-repeat: no-repeat;
     background-color: rgb(126, 126, 126); 
-    background-image: linear-gradient(to bottom right, rgb(97, 97, 97), rgb(236, 236, 236));
+    background-image: linear-gradient(to bottom right, rgb(100, 99, 99), rgb(255, 255, 255));
     background-size: cover;
     height: 100%;
 }
