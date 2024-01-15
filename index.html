@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body background="img/bg.jpg" id="bg">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand ms-3 fs-2 bbb" href="#">BBB</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,11 +31,19 @@
             </ul>
         </div>
     </nav>
+
+    <h2 class="mt-4 text-center reklam">Minden héten Akció! Decemberben jön a télapó!</h2>
+
+    <div class="w-auto">
+      <h1>Béla Barkács Boltja</h1>
+    </div>
+
+    <div class="col-lg-6">
+      <img src="./img/kep1.png" class="kep1">
+    </div>
+
     <div class="container me-5 w-50">
-        <div class="row justify-content-center">
-            <h1 class="w-auto mt-5">Béla Barkács Boltja</h1>
-        </div>
-        <div class="w-auto mx-auto text-center">
+        <div class="w-auto mx-auto text-center mt-5">
             <img src="./img/nyitvatartas.jpg" alt="nyitva" class="img-fluid">
         </div>
         <div class="row justify-content-center mt-3">
@@ -45,26 +53,169 @@
         </div>
     </div>
     <table id="adatok" class="table table-bordered fade">
-        <thead>
-            <tr>
-                <th>Festék</th>
-                <th>Faanyag</th>
-                <th>Eszközök</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Piros</td>
-                <td>Deszka</td>
-                <td>Kalapács</td>
-            </tr>
-            <tr>
-                <td>Zöld</td>
-                <td>Lap</td>
-                <td>Csavarhúzó</td>
-            </tr>
-        </tbody>
+      <thead>
+        <tr>
+          <th>Név</th>
+          <th>Kategória</th>
+          <th>Ár</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+          <td>Faeszterga</td>
+          <td>Szerszám</td>
+          <td>15 000 Ft<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Ütvecsavarozó</td>
+          <td>Szerszám</td>
+          <td>8 500 Ft<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Kézi fűkasza</td>
+          <td>Szerszám</td>
+          <td>12 000 Ft<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Cirkuláris fűrész</td>
+          <td>Szerszám</td>
+          <td>18 500 Ft<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Kerti szerszámkészlet</td>
+          <td>Szerszám</td>
+          <td>9 800 Ft<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Fa vésőkészlet</td>
+          <td>Szerszám</td>
+          <td>6 200 Ft<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Ütvefúró</td>
+          <td>Szerszám</td>
+          <td>14 000 Ft<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Lézer szintező</td>
+          <td>Szerszám</td>
+          <td>22 000 Ft<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Forgácslapát</td>
+          <td>Szerszám</td>
+          <td>7 500 Ft<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Barkácspisztoly</td>
+          <td>Szerszám</td>
+          <td>5 800 Ft<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+
+      <tr>
+          <td>Fenyő deszka</td>
+          <td>Faanyag</td>
+          <td>3 000 Ft/m²<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Tölgy palló</td>
+          <td>Faanyag</td>
+          <td>4 500 Ft/m²<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Mahagóni furnér</td>
+          <td>Faanyag</td>
+          <td>6 800 Ft/m²<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Fenyő gerenda</td>
+          <td>Faanyag</td>
+          <td>2 200 Ft/m<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Kontrafurnér</td>
+          <td>Faanyag</td>
+          <td>5 500 Ft/m²<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Bútorlap</td>
+          <td>Faanyag</td>
+          <td>2 800 Ft/m²<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Fás lépcső</td>
+          <td>Faanyag</td>
+          <td>10 000 Ft/db<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Fenyő léc</td>
+          <td>Faanyag</td>
+          <td>1 500 Ft/m<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Külső ajtó</td>
+          <td>Faanyag</td>
+          <td>25 000 Ft/db<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Fa burkolólap</td>
+          <td>Faanyag</td>
+          <td>4 000 Ft/m²<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+
+      <tr>
+          <td>Akrilfesték</td>
+          <td>Festék</td>
+          <td>3 200 Ft/liter<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Olaj alapú festék</td>
+          <td>Festék</td>
+          <td>4 500 Ft/liter<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Környezetbarát festék</td>
+          <td>Festék</td>
+          <td>5 800 Ft/liter<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Metál hatású festék</td>
+          <td>Festék</td>
+          <td>6 500 Ft/liter<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Falfesték</td>
+          <td>Festék</td>
+          <td>2 800 Ft/liter<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Mázoló ecset</td>
+          <td>Festék</td>
+          <td>1 200 Ft/db<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Tapétavágó</td>
+          <td>Festék</td>
+          <td>2 000 Ft/db<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Grundfesték</td>
+          <td>Festék</td>
+          <td>3 500 Ft/liter<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Festővászon</td>
+          <td>Festék</td>
+          <td>1 800 Ft/m²<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      <tr>
+          <td>Antikolt festék</td>
+          <td>Festék</td>
+          <td>7 200 Ft/liter<button onclick="kosar()" class="kosar btn btn-secondary btn-sm">Kosárba</button></td>
+      </tr>
+      </tbody>
     </table>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
     <script src="./js/app.js"></script>

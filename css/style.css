@@ -2,13 +2,20 @@
 
 #bg {
     background-repeat: no-repeat;
+    background-color: rgb(126, 126, 126); 
+    background-image: linear-gradient(to bottom right, rgb(97, 97, 97), rgb(236, 236, 236));
     background-size: cover;
+    height: 100%;
 }
 
 h1 {
     color: rgb(255, 255, 255);
     font-family: 'Outfit', sans-serif;
     background-color: rgba(83, 83, 83, 0.822);
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 4rem;
 }
 
 .bbb {
@@ -18,9 +25,10 @@ h1 {
 #adatok {
     display: none;
     border-collapse: collapse;
-    width: 80%;
+    width: 50%;
     margin-top: 30px;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 #adatok th, #adatok td {
@@ -41,4 +49,50 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     margin-top: 50px;
+}
+
+th {
+    font-style: italic;
+}
+
+.nyitva {
+    margin-top: 10%;
+}
+
+.kep1 {
+    height: 25rem;
+    width: 43rem;
+    border: 2px solid black;
+    float: left;
+    margin-left: 7rem;
+
+}
+
+.reklam {
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.kosar {
+    float: right;
+}
+
+
+.card-img-top{
+    height: 380px;
+    width: 380px;
+}
+
+.card{
+    width: 600px;
+    height: 500px;
+}
+
+.row{
+    padding: 0;
+}
+
+#oka{
+    background-color: white;
+    color: black;
 }

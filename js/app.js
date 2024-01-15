@@ -1,5 +1,5 @@
-var click = document.getElementById("katt");
-var table = document.getElementById("adatok")
+let click = document.getElementById("katt");
+let table = document.getElementById("adatok")
 click.addEventListener("click", () => {
     if (table.style.display === "table") {
         $(table).fadeOut("slow", function() {
@@ -11,3 +11,8 @@ click.addEventListener("click", () => {
         });
     }
 });
+
+
+function kosar() {
+    alert("Kosárba helyezve!")
+}
