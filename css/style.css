@@ -77,6 +77,11 @@ th {
     float: right;
 }
 
+h2 {
+    background-color: red;
+    color: yellow;
+}
+
 
 .card-img-top{
     height: 380px;
