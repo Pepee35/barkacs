@@ -103,3 +103,10 @@ h2 {
 #button-addon2{
     background-color: rgb(131, 131, 131);
 }
+
+.sav {
+    background-color: rgba(70, 70, 70, 0.795);
+    height: 40px;
+    font-size: 25px;
+    color: white;
+}
