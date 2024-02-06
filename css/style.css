@@ -110,3 +110,9 @@ h2 {
     font-size: 25px;
     color: white;
 }
+
+.text1 {
+    background-color: rgba(68, 68, 68, 0.815);
+    color: white;
+    width: 500px;
+}
