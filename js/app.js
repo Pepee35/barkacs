@@ -1,5 +1,5 @@
 let click = document.getElementById("katt");
-let table = document.getElementById("adatok")
+let table = document.getElementById("adatok");
 click.addEventListener("click", () => {
     if (table.style.display === "table") {
         $(table).fadeOut("slow", function() {
