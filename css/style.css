@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    overflow-x: hidden;
 }
 
 #bg {
@@ -115,4 +116,5 @@ h2 {
     background-color: rgba(68, 68, 68, 0.815);
     color: white;
     width: 500px;
+    text-align: center;
 }
