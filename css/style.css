@@ -117,4 +117,9 @@ h2 {
     color: white;
     width: 500px;
     text-align: center;
+    font-size: large;
+}
+
+.tools {
+    border: 2px solid black;
 }
