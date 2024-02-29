@@ -123,3 +123,8 @@ h2 {
 .tools {
     border: 2px solid black;
 }
+
+.kalapacs {
+    border: 2px solid black;
+    border-radius: 10px;
+}
