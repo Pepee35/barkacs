@@ -116,6 +116,11 @@ h2 {
     background-color: rgba(68, 68, 68, 0.815);
     color: white;
     width: 500px;
+}
+
+.festekek{
+    width: 100px;
+    height: 100px;
     text-align: center;
     font-size: large;
 }
