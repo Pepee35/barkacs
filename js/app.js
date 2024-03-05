@@ -1,5 +1,13 @@
 let click = document.getElementById("katt");
-let table = document.getElementById("adatok");
+let table = document.getElementById("adatok"),
+    valasztas = document.getElementById("valasztas");
+    
+    valasztas.addEventListener("change", () =>{
+        if (valasztas.value == "negy") {
+            
+        }
+    })   
+    
 click.addEventListener("click", () => {
     if (table.style.display === "table") {
         $(table).fadeOut("slow", function() {
@@ -13,6 +21,9 @@ click.addEventListener("click", () => {
 });
 
 
+
 function kosar() {
     alert("Kosárba helyezve!")
 }
+
+
